@@ -12,7 +12,7 @@ const server=http.createServer(app)
 const io=socketio(server)
 
 const publicPathDirectory=path.join(__dirname,'../public')
-const PORT=3002
+const PORT=3002||process.env.PORT
 
 app.use(express.static(publicPathDirectory))
 
