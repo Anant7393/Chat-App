@@ -7,7 +7,7 @@
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
-  "author": "",
+  "author": "Anant",
   "license": "ISC",
   "dependencies": {
     "bad-words": "^3.0.4",
