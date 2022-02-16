@@ -6,7 +6,7 @@ const generateMessages=(username,text)=>{
     }
 }
 
-const generateLocationMessages=(username,url)=>{
+const generateLocationMessages=(username,url)=> {
     return {
         username,
         url,
